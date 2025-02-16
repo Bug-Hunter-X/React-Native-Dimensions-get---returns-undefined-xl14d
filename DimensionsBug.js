@@ -1,0 +1,1 @@
+This error occurs when using the `Dimensions` API in React Native to get screen dimensions. The issue is that `Dimensions.get('window')` or `Dimensions.get('screen')` returns `undefined` sometimes, especially after device rotation or during app initialization. This leads to unexpected layout issues or crashes if you directly use the values from `Dimensions.get`. 
